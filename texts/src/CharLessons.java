@@ -28,8 +28,8 @@ public static void main(String[] args){
   // System.out.println(Character.isWhitespace('9')); // false , it is a digit
 
   // Example :
-  char c = 'b';
-  char[] charArray = {'a', 'b', 'c', 'd', 'e'};
+  char c = 'b'; // Primitive
+  char[] charArray = {'a', 'b', 'c', 'd', 'e'}; // Array : MultiValues : Object
 
 
 
