@@ -9,7 +9,11 @@ public static void main(String[] args){
   System.out.println("Please Enter: your name: ");
   String name = input.nextLine();
 
+
   System.out.println(greeting + name.toLowerCase());
 
+  // Finding a Character in a String
+  String txt = greeting + name;
+  System.out.println(txt.indexOf('l')); // 2
 }
 }
